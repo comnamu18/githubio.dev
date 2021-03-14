@@ -1,0 +1,7 @@
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = https://github.com/comnamu18/github-style.git
+[submodule "public"]
+	path = public
+	url = https://github.com/comnamu18/comnamu18.github.io.git
+	branch = main

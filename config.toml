@@ -1,0 +1,21 @@
+baseURL = "https://comnamu18.com/"
+languageCode = "ko-kr"
+title = "computer_namu"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "comnamu18"
+  description = "Want to make ML/DL projects commercially"
+  github = "comnamu18"
+  linkedin = "comnamu18-shkim"
+  email = "comnamu18@gmail.com"
+  url = "https://comnamu18.com"
+  keywords = "DL, ML, Prototyping"
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "Seoul, Republic of Korea"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
