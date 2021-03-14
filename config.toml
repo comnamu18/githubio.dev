@@ -1,3 +1,4 @@
+baseURL="https://comnamu18.github.io"
 languageCode = "ko-kr"
 title = "computer_namu"
 theme = "github-style"
@@ -5,10 +6,11 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "comnamu18"
-  description = "Want to make ML/DL projects commercially"
+  author = "KimSangHeon"
+  description = "Computer + Namu"
   github = "comnamu18"
   linkedin = "comnamu18-shkim"
+  url="https://comnamu18.github.io"
   email = "comnamu18@gmail.com"
   keywords = "DL, ML, Prototyping"
   lastmod = true
