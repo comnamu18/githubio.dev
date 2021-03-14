@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
 # Build the project.
 echo "Generating site and upload it to git"
 env HUGO_ENV="production" hugo -t github-style
