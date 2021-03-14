@@ -1,4 +1,3 @@
-baseURL = "https://comnamu18.com/"
 languageCode = "ko-kr"
 title = "computer_namu"
 theme = "github-style"
@@ -11,7 +10,6 @@ pygmentsUseClasses = true
   github = "comnamu18"
   linkedin = "comnamu18-shkim"
   email = "comnamu18@gmail.com"
-  url = "https://comnamu18.com"
   keywords = "DL, ML, Prototyping"
   lastmod = true
   favicon = "/images/github.png"
