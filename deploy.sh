@@ -3,7 +3,8 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t github-style
+echo "Generating site and upload it to git"
+env HUGO_ENV="production" hugo -t github-style
 
 # Go To Public folder
 cd public
@@ -20,6 +21,7 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
+echo "Push forked themes repository"
 # Go To theme folder
 cd ../themes/github-style
 # Add changes to git.
@@ -35,6 +37,7 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
+echo "Push custom hugo templates reposirtory"
 # Come Back up to the Project Root
 cd ../..
 
