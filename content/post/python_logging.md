@@ -59,13 +59,13 @@ if __name__ == '__main__':
     logger = getCustomLogger()
     logger_id = hex(id(logger))
     logger.debug(f"Initiating Logger : {logger_id}")
-    testA.testA(logger)
+    testA.testA()
 ```
 ```Python Script
 testA.py
 import logging
 
-def testA(logger):
+def testA():
     logger = logging.getLogger()
     logger_id = hex(id(logger))
     logger.debug(f"testA Logger : {logger_id}")
@@ -108,13 +108,13 @@ if __name__ == '__main__':
     logger = getCustomLogger("메인모듈")
     logger_id = hex(id(logger))
     logger.debug(f"Initiating Logger : {logger_id}")
-    testA.testA(logger)
+    testA.testA()
 ```
 ```Python Script
 testA.py
 import logging
 
-def testA(logger):
+def testA():
     logger = logging.getLogger("테스트A")
     logger_id = hex(id(logger))
     logger.debug(f"testA Logger : {logger_id}")
