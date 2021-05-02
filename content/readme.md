@@ -5,12 +5,8 @@ draft: true
 ---
 
 
-## Hello World 👋
+## TIL
 
-🔭 I’m currently working on AI based Prototyping in KaKao Enterprise.
+공부한 내용을 간단하게 글로 적는 연습장입니다.
 
-🌱 I’m currently learning Full Stack Deep Learning.
-
-📫 How to reach me: comnamu18@gmail.com
-
-😄 Linkedin: https://www.linkedin.com/in/comnamu18-shkim/
+기록을 함으로써 배운 내용을 다시 정리하고자 하는 곳입니다.

@@ -1,7 +1,7 @@
 ---
 title: "Python_logging"
 date: 2021-04-10T21:40:59+09:00
-draft: false
+draft: true
 summary: "Python의 logging 라이브러리에 대한 고찰"
 ---
 

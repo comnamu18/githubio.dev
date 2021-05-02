@@ -1,7 +1,7 @@
 ---
 title: "MLOps 정의 알아보기"
 date: 2021-03-17T23:21:10+09:00
-draft: false
+draft: true
 summary: "MLOps에 대해 알아보기 위해 DevOps의 정의부터 시작해서 Google 에서 제시한 MLOps 와 관련된 내용에 대해서 정리하였습니다."
 ---
 
